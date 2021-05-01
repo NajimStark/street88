@@ -1,0 +1,252 @@
+@import 'fonts.css'; 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Raleway';
+    background: #000;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin:0 auto;
+    padding: 0 15px;
+}
+
+/* ads start */
+.reklam {
+    border: 1px solid rgba(125, 115, 115, 0.5);
+    backdrop-filter: blur(15px);
+}
+
+.ads {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    padding:21px 0;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.ads__nav__list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.ads__icon__txt {
+    color: #fff;
+}
+
+.ads__nav__link {
+    color: #fff;
+}
+
+/* ads and */
+
+
+/* nav start */
+
+.div {
+    /* display: flex; */
+    /* justify-content: space-between;
+    align-items: center; */
+    padding: 6px 0;
+    border-bottom:  1px solid rgba(125, 115, 115, 0.5);
+    backdrop-filter: blur(15px);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.849);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div__image {
+    background: rgba(10, 148, 24, 0.75);
+    border: 4px solid #06600F;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 6px 18px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link {
+    color: #fff;
+    padding: 22px 14px;      
+}
+
+.nav__link:hover {
+    background: rgba(105, 207, 23, 0.75);
+}
+
+/* nav and */
+
+/* header start */
+
+.header {
+    min-height: 80vh;
+    position: relative;
+    display: flex;
+}
+
+.header__banner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-bottom: 48px;
+}
+
+.header__content {
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.header__content__title {
+    color: #69CF17;
+    font-size: 72px;
+}
+
+.header__content__title_2 {
+    color: #69CF17;
+    font-size: 36px;
+    padding: 18px 0;
+}
+
+.header__content__txt {
+    color: #fff;
+    padding-bottom: 32px;
+}
+
+.header__content__btn {
+    font-size: 50px;
+    color: #FFFFFF;
+    padding: 33px 76px;
+    background:  rgba(105, 207, 23, 0.5);
+    backdrop-filter: blur(18px);
+}
+
+.header__content__btn__txt {
+    background: linear-gradient(90deg, #69CF17 0%, #417D11 100%);
+    border-radius: 6px;
+    color: #fff;
+    padding: 15px 70px;
+}
+
+.header__content__btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header and */
+
+/* section start */
+.selected__img__div {
+    position: relative;
+    min-height: 400px;
+    display: flex;
+}
+
+.selected__img {
+    position: absolute;
+    width: 100%;
+    height: 100%;object-fit: cover;
+}
+
+.selected__logo {
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected__txt {
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 30px 0;
+    text-align: justify;
+}
+
+/* section and */
+
+/* footer start */
+
+.footer__cards {
+    background:  linear-gradient(180deg, #000000 0%, rgba(105, 207, 23, 0.5) 100%);
+}
+
+.footer__dev {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.footer__call {
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer__list {
+    max-width: 240px;
+    display: flex;
+    /* justify-content: space-between; */
+    column-gap: 20px;
+}
+
+.footer__nav {
+    padding-top: 81px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 81px;
+}
+
+.footer__link {
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer__card__proweb {
+    background: #1A3406;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footwr__proweb__txt {
+    color: #FFFFFF;
+    padding: 19px 0;
+}
+
+/* footer and */

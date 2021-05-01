@@ -1,0 +1,193 @@
+
+
+/* @media (max-width: 1440px) {}  */ /* noutbook */
+/* @media (max-width: 1366px) {}  */ /* noutbook */
+/* @media (max-width: 1320px) {}  */ /* noutbook */
+/* @media (max-width: 1290px) {}  */ /* noutbook */
+/* @media (max-width: 1140px) {}  */ /* noutbook */
+@media (max-width: 1024px) {
+    *::-webkit-scrollbar {
+        height: 0;
+    }
+
+    .burgers__content__cards {
+        grid-template-columns:1fr 1fr 1fr;
+    }
+}  /* ipad */
+@media (max-width: 992px) {
+    .burgers__content__cards {
+        grid-template-columns:1fr 1fr   ;
+    }
+}   /* ipad */
+/* @media (max-width: 768px) {}   */ /* ipad */
+@media (max-width: 736px) {
+    .nav__list {
+        display: none;
+    }
+
+    .nav__menu {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav__line {
+        width: 100%;
+        height: 2px;
+        background: #fff;
+        position: relative;
+    }
+
+    .nav__line::before, 
+    .nav__line::after{
+        content: '';
+        position: absolute;
+        top: -10px;
+        width: 100%;
+        height: 100%;
+        background: inherit;
+    }
+
+    .nav__line::after {
+        top: 10px;
+    }
+
+    .nav {
+        padding: 15px 0;
+    }
+}   /* phone */
+@media (max-width: 734px) {
+    .header__content__title {
+        font-size: 60px;
+    }
+  
+}   /* phone */
+@media (max-width: 684px) {
+
+    .header__content__title_2 {
+        font-size: 30px;
+    }
+}   /* phone */
+@media (max-width: 667px) {
+    .header__content__title {
+        font-size: 50px;
+    }
+    .header__content__title_2 {
+        font-size: 28px;
+    }
+    .nav__link {
+        font-size: 15px;
+    }
+    .burgers__content__cards__card__txt {
+        font-size: 15px;
+    }
+}   /* phone */
+@media (max-width: 576px) {
+    .ads__icon__txt {
+        font-size: 12px;
+    }
+    .header__content__title {
+        font-size: 38px;
+    }
+    .ads__nav__link {
+        font-size: 12px;
+    }
+    .prim__link {
+        font-size: 12px;
+        margin: unset;
+    }
+    .header__content__txt {
+       font-size: 12px;
+    }
+    .header__content__btn {
+       width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding: 10px 0;
+    }
+    .header__content__btn_2 {
+       width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    .header__content__btns {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    
+    .burgers__content__cards__card__txt {
+       font-size: 12px;
+    }    
+    .div__image {
+       padding: 2px 3px;
+    }
+}   /* phone */
+@media (max-width: 414px) {
+    .header__content__title {
+        font-size: 30px;
+    }
+    .header__content__title_2 {
+        font-size: 20px;
+    }
+    .ads__nav__link {
+       
+    }
+    .prim__link {
+       margin: unset ;
+    }
+    .footer__call {
+       font-size:unset;
+    }
+    
+    .footer__link {
+       font-size: unset;
+    }
+    
+    .footwr__proweb__txt {
+       font-size: 13px;
+    }
+}   /* phone */
+@media (max-width: 412px) {
+    .burgers__content__cards {
+       grid-template-columns: 1fr;
+    }
+    .prim__list {
+       padding: unset;
+    }
+    .prim__link {
+       /* font-size: 15px; */
+    }
+}   /* phone */
+@media (max-width: 375px) {
+    .ads__icon__txt {
+        font-size: 10px;
+    } 
+    .ads__nav__link  {
+        font-size: 10px;
+    }
+    .ads__nav__list {
+        column-gap:  14px;
+    }
+    .prim__link {
+        font-size: 11px;
+        padding: 18px 10px ;
+    }
+
+    /* .footer__call {
+        font-size: 15px;
+    } */
+    .div__image__img {
+    width: 130px;
+    }
+}   /* phone */
+@media (max-width: 360px) {
+
+    .header__content__title {
+        font-size: 25px;
+    }
+
+}   /* phone */
+/* @media (max-width: 320px) {}   */ /* phone */
